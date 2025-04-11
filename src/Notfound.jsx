@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import './Notfound.css'
-export default function(){
+export default function Notfound(){
     const navigate = useNavigate()
     const onbuttonClick = () => {
         navigate('/')

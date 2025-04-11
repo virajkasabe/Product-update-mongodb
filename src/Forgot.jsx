@@ -1,6 +1,6 @@
 import { useForm } from 'react-hook-form'
 import './forgot.css'
-export default function (){
+export default function Forgot(){
     const{register,handleSubmit,formState:{errors},watch}= useForm()
   
     const onSubmit = (data) => console.log(data)

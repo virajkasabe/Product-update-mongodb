@@ -6,7 +6,7 @@ import Forgot from './forgot'
 import { Route, Routes } from 'react-router-dom'
 import Notfound from './Notfound'
 import Dashboard from './Dashboard'
-import login from './login'
+
 import Login from './login'
 
 
