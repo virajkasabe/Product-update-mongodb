@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
-import './Registration.css';
+import Registration from "./components/registration";
+
 import { Toaster, toast } from 'react-hot-toast';
 import Loader from './Loader'; 
 import axios from 'axios';
