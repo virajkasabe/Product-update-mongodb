@@ -7,7 +7,7 @@ import toast, { Toaster } from 'react-hot-toast';
 import Loader from './Loader';
 import { NavLink, useNavigate } from 'react-router-dom'
 import Cookies from 'js-cookie';
-export default function (){
+export default function  Login(){
     const{register,handleSubmit,formState:{errors},setValue}= useForm()
     const [isLoading, setLoading] = useState(false);
     const navigate=useNavigate()
