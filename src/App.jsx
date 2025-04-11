@@ -8,7 +8,7 @@ import Forgot from './forgot'
 import { Route, Routes } from 'react-router-dom'
 import Notfound from './Notfound'
 import Dashboard from './Dashboard'
-import Registration from './Registration'
+
 
 function App() {
   
